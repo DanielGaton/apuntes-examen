@@ -1,0 +1,15 @@
+<div></div> <!-- Contenedor genérico -->
+<span></span> <!-- Contenedor en línea -->
+
+<header></header> <!-- Cabecera -->
+<nav></nav> <!-- Navegación -->
+<main></main> <!-- Contenido principal -->
+<section></section> <!-- Sección -->
+<article></article> <!-- Artículo independiente -->
+<aside></aside> <!-- Contenido lateral -->
+<footer></footer> <!-- Pie de página -->
+
+<figure> <!-- Agrupa contenido multimedia -->
+  <img src="img.jpg">
+  <figcaption>Descripción</figcaption> <!-- Texto descriptivo -->
+</figure>

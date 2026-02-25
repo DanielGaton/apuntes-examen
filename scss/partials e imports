@@ -1,0 +1,13 @@
+Archivo parcial
+// _variables.scss
+$color: red;
+
+Importar
+@use 'variables'; // Forma moderna
+
+
+Uso:
+
+body {
+  color: variables.$color;
+}

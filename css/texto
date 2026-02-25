@@ -1,0 +1,6 @@
+font-family: Arial; /* Fuente */
+font-size: 16px; /* Tamaño */
+font-weight: bold; /* Grosor */
+text-align: center; /* Alineación */
+text-decoration: underline; /* Subrayado */
+text-transform: uppercase; /* Mayúsculas */

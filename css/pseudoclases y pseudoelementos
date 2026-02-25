@@ -1,0 +1,8 @@
+:hover {} /* Cuando pasas ratón */
+:focus {} /* Cuando está seleccionado */
+:first-child {} /* Primer hijo */
+:nth-child(2) {} /* Hijo específico */
+
+::before {} /* Antes del elemento */
+::after {} /* Después del elemento */
+::first-letter {} /* Primera letra */

@@ -1,0 +1,6 @@
+width: 200px; /* Ancho */
+height: 100px; /* Alto */
+padding: 10px; /* Espacio interno */
+margin: 20px; /* Espacio externo */
+border: 1px solid black; /* Borde */
+box-sizing: border-box; /* Incluye padding y border en el tamaño */

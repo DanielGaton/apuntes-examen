@@ -1,0 +1,5 @@
+npm install -g sass
+
+sass --version
+
+sass --watch scss/estilos.scss css/estilos.css

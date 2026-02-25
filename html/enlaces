@@ -1,0 +1,5 @@
+<a href="https://google.com">Ir</a> <!-- Enlace a otra página -->
+<a href="#seccion">Ancla</a> <!-- Enlace interno -->
+<a href="mailto:correo@mail.com">Email</a> <!-- Abre correo -->
+<a href="tel:+34123456789">Teléfono</a> <!-- Llamada en móvil -->
+<a href="archivo.pdf" download>Descargar</a> <!-- Descarga archivo -->

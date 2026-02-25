@@ -1,0 +1,66 @@
+/* RESET BÁSICO (opcional en examen) */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* HEADER BASE */
+.header {
+  background: #1e293b; /* Fondo oscuro */
+  color: white;        /* Texto blanco */
+  padding: 15px 0;     /* Espaciado vertical */
+}
+
+/* CONTENEDOR CENTRADO */
+.header__container {
+  max-width: 1100px;   /* Ancho máximo */
+  margin: auto;        /* Centra horizontal */
+  padding: 0 20px;     /* Espacio lateral */
+
+  display: flex;       /* Flexbox */
+  align-items: center; /* Centra vertical */
+  justify-content: space-between; /* Logo izquierda, botón derecha */
+}
+
+/* LOGO */
+.header__logo h1 {
+  font-size: 1.5rem;
+}
+
+/* NAV */
+.header__menu { 
+  display: flex;   /* Menú en horizontal */
+  gap: 20px;       /* Espacio entre enlaces */
+  list-style: none;
+}
+
+/* LINKS */
+.header__menu a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  transition: 0.2s;
+}
+
+/* HOVER LINKS */
+.header__menu a:hover {
+  color: #38bdf8; /* Azul claro */
+}
+
+/* BOTÓN */
+.btn {
+  background: #38bdf8;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  color: #0f172a;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+/* HOVER BOTÓN */
+.btn:hover {
+  background: #0ea5e9;
+}

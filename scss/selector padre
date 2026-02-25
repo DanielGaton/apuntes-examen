@@ -1,0 +1,11 @@
+.button {
+  background: blue;
+
+  &:hover {
+    background: red; // .button:hover
+  }
+
+  &--grande {
+    font-size: 2rem; // .button--grande (BEM)
+  }
+}

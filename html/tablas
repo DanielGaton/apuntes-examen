@@ -1,0 +1,13 @@
+<table> <!-- Tabla -->
+  <caption>Título</caption> <!-- Título de tabla -->
+  <thead> <!-- Encabezado -->
+    <tr> <!-- Fila -->
+      <th>Nombre</th> <!-- Celda encabezado -->
+    </tr>
+  </thead>
+  <tbody> <!-- Cuerpo -->
+    <tr>
+      <td>Dato</td> <!-- Celda normal -->
+    </tr>
+  </tbody>
+</table>

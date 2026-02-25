@@ -1,0 +1,14 @@
+%boton-base { // Placeholder (no genera CSS si no se usa)
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.btn-primary {
+  @extend %boton-base; // Hereda estilos
+  background: blue;
+}
+
+.btn-danger {
+  @extend %boton-base;
+  background: red;
+}

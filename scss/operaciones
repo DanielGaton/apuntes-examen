@@ -1,0 +1,6 @@
+$base: 10px;
+
+.box {
+  width: $base * 2; // 20px
+  margin: $base + 5; // 15px
+}

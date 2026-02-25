@@ -1,0 +1,15 @@
+$color-principal: red; // Variable
+$padding-base: 20px;
+
+body {
+  color: $color-principal; // Uso de variable
+  padding: $padding-base;
+}
+
+
+$color: #ff0000; // Color
+$size: 16px; // Tamaño
+$font: Arial; // Texto
+$bool: true; // Booleano
+$list: 10px 20px; // Lista
+$map: (primary: red, secondary: blue); // Mapa

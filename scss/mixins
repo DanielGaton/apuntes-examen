@@ -1,0 +1,35 @@
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  @include flex-center; // Inserta estilos
+}
+
+
+--------------------------------------------------------
+
+
+//mixin con parametros
+@mixin sombra($x: 0, $y: 5px, $blur: 10px) {
+  box-shadow: $x $y $blur black;
+}
+
+.card {
+  @include sombra; // Usa valores por defecto
+}
+
+
+--------------------------------------------------------
+
+
+//valores por defecto
+@mixin sombra($x: 0, $y: 5px, $blur: 10px) {
+  box-shadow: $x $y $blur black;
+}
+
+.card {
+  @include sombra; // Usa valores por defecto
+}

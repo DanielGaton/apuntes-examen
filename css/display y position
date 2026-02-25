@@ -1,0 +1,9 @@
+display: block; /* Ocupa todo el ancho */
+display: inline; /* Solo ocupa lo necesario */
+display: flex; /* Activa Flexbox */
+display: grid; /* Activa Grid */
+
+position: relative; /* Posición relativa */
+position: absolute; /* Posición absoluta */
+position: fixed; /* Fijo pantalla */
+position: sticky; /* Se pega al hacer scroll */

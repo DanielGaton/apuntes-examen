@@ -1,0 +1,108 @@
+
+
+@use "sass:color"; // Módulo moderno de funciones de color
+
+// ========================
+// VARIABLES
+// ========================
+$primary: #3498db;
+$secondary: #2ecc71;
+$dark: #2c3e50;
+$text: #333;
+$padding-base: 16px;
+$radius: 12px;
+
+// ========================
+// MIXINS
+// ========================
+
+// Centrar con flexbox
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+// Botón base
+@mixin button-base($bg) {
+  background: $bg;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+// ========================
+// CARD COMPONENT
+// ========================
+
+
+.card {
+  background: white;
+  border-radius: $radius;
+  padding: $padding-base;
+  color: $text;
+  @include flex-center;
+  flex-direction: column;
+  gap: 10px;
+  transition: 0.3s;
+
+  &:hover {
+    transform: translateY(-5px);
+    background: color.adjust(white, $lightness: -5%);
+  }
+
+  // ELEMENTOS (BEM)
+  &__image {
+    width: 100%;
+    border-radius: $radius;
+  }
+
+  &__title {
+    font-size: 1.4rem;
+    font-weight: bold;
+  }
+
+  &__text {
+    font-size: 0.95rem;
+    line-height: 1.5;
+  }
+
+  &__button {
+    @include button-base($primary);
+
+    &:hover {
+      background: color.adjust($primary, $lightness: -10%);
+    }
+
+    &--secondary {
+      @include button-base($secondary);
+
+      &:hover {
+        background: color.adjust($secondary, $lightness: -10%);
+      }
+    }
+  }
+
+  // MODIFICADORES DEL BLOQUE
+  &--featured {
+    border: 2px solid $primary;
+    transform: scale(1.02);
+  }
+
+  &--dark {
+    background: $dark;
+    color: white;
+  }
+
+  // RESPONSIVE
+  @media (max-width: 600px) {
+    padding: 12px;
+
+    &__title {
+      font-size: 1.2rem;
+    }
+  }
+}

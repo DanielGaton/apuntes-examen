@@ -1,0 +1,9 @@
+$colors: (
+  primary: blue,
+  secondary: green,
+  danger: red
+);
+
+.button {
+  color: map-get($colors, primary); // Obtiene valor del mapa
+}

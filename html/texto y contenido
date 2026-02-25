@@ -1,0 +1,22 @@
+<h1>Encabezado principal</h1> <!-- Título más importante -->
+<h2>Subtítulo</h2> <!-- Encabezados secundarios hasta h6 -->
+
+<p>Párrafo</p> <!-- Texto en bloque -->
+<br> <!-- Salto de línea -->
+<hr> <!-- Línea horizontal -->
+
+<strong>Importante</strong> <!-- Negrita con significado semántico -->
+<b>Negrita visual</b> <!-- Solo estilo -->
+<em>Énfasis</em> <!-- Cursiva semántica -->
+<i>Cursiva visual</i> <!-- Solo estilo -->
+<u>Subrayado</u> <!-- Texto subrayado -->
+<mark>Resaltado</mark> <!-- Fondo amarillo -->
+<small>Texto pequeño</small> <!-- Reduce tamaño -->
+<del>Tachado</del> <!-- Texto eliminado -->
+<ins>Insertado</ins> <!-- Texto añadido -->
+<sup>2</sup> <!-- Superíndice -->
+<sub>2</sub> <!-- Subíndice -->
+<code>console.log()</code> <!-- Código en línea -->
+<pre>Texto respetando espacios</pre> <!-- Texto preformateado -->
+<blockquote>Cita larga</blockquote> <!-- Cita en bloque -->
+<q>Cita corta</q> <!-- Cita en línea -->

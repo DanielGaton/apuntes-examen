@@ -1,0 +1,8 @@
+* {} /* Selector universal */
+p {} /* Etiqueta */
+.clase {} /* Clase */
+#id {} /* ID */
+div p {} /* Descendiente */
+div > p {} /* Hijo directo */
+h1 + p {} /* Hermano inmediato */
+input[type="text"] {} /* Por atributo */

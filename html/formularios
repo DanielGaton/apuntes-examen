@@ -1,0 +1,33 @@
+<form action="procesar.php" method="POST"> <!-- Formulario -->
+  
+  <label for="nombre">Nombre</label> <!-- Etiqueta descriptiva -->
+  <input type="text" id="nombre" required> <!-- Campo texto obligatorio -->
+
+  <input type="email"> <!-- Email -->
+  <input type="password"> <!-- Contraseña -->
+  <input type="number"> <!-- Número -->
+  <input type="date"> <!-- Fecha -->
+  <input type="color"> <!-- Selector color -->
+  <input type="checkbox"> <!-- Casilla -->
+  <input type="radio"> <!-- Opción única -->
+  <input type="file"> <!-- Subir archivo -->
+  <input type="range"> <!-- Barra deslizante -->
+  <input type="submit"> <!-- Enviar -->
+  <input type="reset"> <!-- Resetear -->
+
+  <textarea></textarea> <!-- Texto largo -->
+
+  <select> <!-- Desplegable -->
+    <option>Opción</option> <!-- Opción -->
+  </select>
+
+  <button>Botón</button> <!-- Botón -->
+
+  <fieldset> <!-- Agrupa campos -->
+    <legend>Título</legend> <!-- Título del grupo -->
+  </fieldset>
+
+  <progress value="50" max="100"></progress> <!-- Barra progreso -->
+  <meter value="0.7"></meter> <!-- Indicador medida -->
+
+</form>

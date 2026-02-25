@@ -1,0 +1,91 @@
+
+🔹 Activar Grid
+.container {
+  display: grid; /* Activa el sistema grid */
+}
+
+🔹 Crear columnas
+.container {
+  grid-template-columns: 200px 200px 200px; /* 3 columnas fijas */
+  grid-template-columns: 1fr 1fr 1fr;       /* 3 columnas iguales */
+  grid-template-columns: repeat(3, 1fr);    /* Forma corta */
+}
+
+🔹 Crear filas
+.container {
+  grid-template-rows: 100px 200px; /* Dos filas con altura definida */
+}
+
+🔹 Unidades importantes
+grid-template-columns: 200px; /* Tamaño fijo */
+grid-template-columns: 50%;   /* Porcentaje */
+grid-template-columns: auto;  /* Tamaño automático */
+grid-template-columns: 1fr;   /* Fracción del espacio disponible */
+
+🔹 Espaciado
+.container {
+  gap: 20px;        /* Espacio en filas y columnas */
+  row-gap: 10px;    /* Solo filas */
+  column-gap: 20px; /* Solo columnas */
+}
+
+🔹 Posicionar elementos manualmente
+.item {
+  grid-column: 1 / 3; /* Ocupa desde columna 1 hasta la 3 */
+  grid-row: 1 / 2;    /* Desde fila 1 hasta la 2 */
+}
+
+🔹 Shorthand grid-area
+.item {
+  grid-area: 1 / 1 / 3 / 3; 
+  /* row-start / col-start / row-end / col-end */
+}
+
+🔹 Áreas nombradas
+.container {
+  grid-template-areas:
+    "header header"
+    "sidebar content"
+    "footer footer"; /* Define un layout visual */
+}
+
+.header { grid-area: header; }   /* Asigna el área */
+.sidebar { grid-area: sidebar; }
+.content { grid-area: content; }
+.footer { grid-area: footer; }
+
+🔹 Alineación en Grid
+Horizontal
+.container {
+  justify-items: center; /* Centra elementos horizontalmente */
+}
+
+.item {
+  justify-self: center; /* Centra solo un elemento */
+}
+Vertical
+.container {
+  align-items: center; /* Centra verticalmente */
+}
+
+.item {
+  align-self: center; /* Solo un elemento */
+}
+
+🔹 Centrado total en Grid
+.container {
+  display: grid;
+  place-items: center; /* Centra horizontal y vertical a la vez */
+}
+
+🔹 Ejemplo completo Grid
+.container {
+  display: grid; /* Activa grid */
+  grid-template-columns: repeat(3, 1fr); /* 3 columnas iguales */
+  gap: 20px; /* Espacio entre celdas */
+}
+
+.item {
+  background: lightblue;
+  padding: 20px;
+}

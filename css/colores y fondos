@@ -1,0 +1,5 @@
+color: red; /* Color texto */
+background-color: blue; /* Fondo */
+background-image: url("img.jpg"); /* Imagen fondo */
+background-size: cover; /* Ajusta imagen */
+background-position: center; /* Centra imagen */

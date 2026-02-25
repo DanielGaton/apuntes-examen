@@ -1,0 +1,24 @@
+@for $i from 1 through 5 {
+  .m-#{$i} {
+    margin: #{$i * 10}px; // .m-1, .m-2...
+  }
+}
+
+
+$colores: red, green, blue;
+
+@each $color in $colores {
+  .text-#{$color} {
+    color: $color;
+  }
+}
+
+
+$i: 1;
+
+@while $i <= 3 {
+  .p-#{$i} {
+    padding: $i * 5px;
+  }
+  $i: $i + 1;
+}

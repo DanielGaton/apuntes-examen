@@ -1,0 +1,16 @@
+<img src="img.jpg" alt="Descripción"> <!-- Imagen -->
+
+<picture> <!-- Permite imágenes adaptativas -->
+  <source media="(max-width:600px)" srcset="movil.jpg"> <!-- Imagen para móvil -->
+  <img src="pc.jpg" alt="Imagen principal"> <!-- Imagen por defecto -->
+</picture>
+
+<audio controls> <!-- Reproductor de audio -->
+  <source src="audio.mp3"> <!-- Archivo de audio -->
+</audio>
+
+<video controls width="400"> <!-- Reproductor de video -->
+  <source src="video.mp4"> <!-- Archivo de video -->
+</video>
+
+<iframe src="https://example.com"></iframe> <!-- Incrusta otra web -->

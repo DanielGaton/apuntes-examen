@@ -1,0 +1,70 @@
+/* FOOTER BASE */
+.footer {
+  background: #0f172a; /* Fondo oscuro */
+  color: #e5e7eb;      /* Texto claro */
+  margin-top: 40px;
+}
+
+/* CONTENEDOR PRINCIPAL */
+.footer__container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 40px 20px;
+
+  display: flex;              /* Flexbox columnas */
+  justify-content: space-between;
+  gap: 30px;
+  flex-wrap: wrap;            /* Permite responsive */
+}
+
+/* COLUMNAS */
+.footer__col {
+  flex: 1;        /* Todas iguales */
+  min-width: 200px; /* Evita que se rompa en móvil */
+}
+
+/* TÍTULOS */
+.footer__title {
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+}
+
+.footer h4 {
+  margin-bottom: 10px;
+}
+
+/* LISTAS */
+.footer__links {
+  list-style: none;
+}
+
+.footer__links li {
+  margin-bottom: 6px;
+}
+
+/* ENLACES */
+.footer a {
+  color: #cbd5f5;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+.footer a:hover {
+  color: #38bdf8; /* Hover azul */
+}
+
+/* REDES */
+.footer__social {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+/* PARTE INFERIOR */
+.footer__bottom {
+  border-top: 1px solid #1e293b;
+  text-align: center;
+  padding: 15px;
+  font-size: 0.9rem;
+  background: #020617;
+}

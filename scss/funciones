@@ -1,0 +1,18 @@
+//integradas
+
+color: lighten(red, 20%); // Aclara color
+color: darken(red, 20%); // Oscurece
+color: mix(red, blue); // Mezcla colores
+
+
+------------------------------------------------
+
+/personalizadas
+
+@function doble($valor) {
+  @return $valor * 2; // Devuelve resultado
+}
+
+.box {
+  width: doble(10px); // 20px
+}

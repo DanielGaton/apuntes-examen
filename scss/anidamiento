@@ -1,0 +1,19 @@
+nav {
+  background: black;
+
+  ul {
+    list-style: none; // Afecta a nav ul
+  }
+
+  li {
+    display: inline-block; // nav li
+  }
+
+  a {
+    color: white; // nav a
+
+    &:hover {
+      color: red; // nav a:hover (& = selector padre)
+    }
+  }
+}

@@ -1,0 +1,4 @@
+transition: all 0.3s ease; /* Transición suave */
+transform: scale(1.2); /* Escala */
+box-shadow: 0 5px 10px rgba(0,0,0,0.3); /* Sombra */
+opacity: 0.5; /* Transparencia */

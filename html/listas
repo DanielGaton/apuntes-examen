@@ -1,0 +1,12 @@
+<ul> <!-- Lista desordenada -->
+  <li>Elemento</li> <!-- Elemento de lista -->
+</ul>
+
+<ol> <!-- Lista ordenada -->
+  <li>Elemento</li>
+</ol>
+
+<dl> <!-- Lista de definiciones -->
+  <dt>Término</dt> <!-- Título -->
+  <dd>Definición</dd> <!-- Descripción -->
+</dl>

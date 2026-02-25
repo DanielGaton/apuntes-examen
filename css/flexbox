@@ -1,0 +1,56 @@
+
+🔹 Activar Flexbox
+.container {
+  display: flex; /* Convierte el contenedor en flexbox */
+}
+
+🔹 Dirección del eje principal
+.container {
+  flex-direction: row;         /* Elementos en fila (default) */
+  flex-direction: column;      /* Elementos en columna */
+  flex-direction: row-reverse; /* Invierte el orden horizontal */
+  flex-direction: column-reverse; /* Invierte el orden vertical */
+}
+
+🔹 Alineación en el eje principal
+.container {
+  justify-content: flex-start;   /* Alinea al inicio */
+  justify-content: center;       /* Centra en el eje principal */
+  justify-content: flex-end;     /* Alinea al final */
+  justify-content: space-between; /* Espacio entre elementos */
+  justify-content: space-around; /* Espacio alrededor */
+  justify-content: space-evenly; /* Espacio igual entre todos */
+}
+
+🔹 Alineación en el eje secundario
+.container {
+  align-items: stretch;   /* Estira los elementos (default) */
+  align-items: center;    /* Centra en eje secundario */
+  align-items: flex-start; /* Arriba o izquierda */
+  align-items: flex-end;   /* Abajo o derecha */
+  align-items: baseline;   /* Alinea según el texto */
+}
+
+🔹 Alinear un solo elemento
+.item {
+  align-self: center; /* Sobrescribe align-items solo para este elemento */
+}
+
+🔹 Varias líneas
+.container {
+  flex-wrap: nowrap; /* Todo en una línea (default) */
+  flex-wrap: wrap;   /* Salta a otra línea si no cabe */
+  flex-wrap: wrap-reverse; /* Salta pero invertido */
+}
+
+🔹 Separación entre elementos
+.container {
+  gap: 20px; /* Espacio entre todos los elementos */
+}
+
+🔹 Centrado total con Flexbox
+.container {
+  display: flex;
+  justify-content: center; /* Centra horizontal */
+  align-items: center;     /* Centra vertical */
+}
