@@ -1,20 +1,22 @@
-@use "sass:color"; // Correcto: Siempre arriba
+@use "sass:color"; // Para manejar colores
+@use "sass:list";  // Para manejar listas (el nuevo estándar)
 
 $colores: #FF5733, #33FF57, #3357FF, #F1C40F, #9B59B6, #E67E22, 
           #1ABC9C, #34495E, #95A5A6, #D35400, #C0392B, #27AE60;
 
 @for $i from 1 through 12 {
   .div-#{$i} {
-    $color-base: nth($colores, $i);
+    // CAMBIO CLAVE: Usamos list.nth en lugar de nth a secas
+    $color-base: list.nth($colores, $i);
 
     background-color: $color-base;
 
-    // USANDO LA SINTAXIS MODERNA (color.adjust)
+    // Usamos color.adjust de forma consistente
     border: 2px solid color.adjust($color-base, $lightness: -15%, $saturation: 10%);
 
+    transition: background-color 0.3s ease; // Un toque extra de calidad
+
     &:hover {
-      // Corregido: cambiamos $color-original por $color-base
-      // Añadimos el cambio de tono (hue) que querías
       background-color: color.adjust($color-base, $hue: 20deg, $lightness: -10%);
     }
   }

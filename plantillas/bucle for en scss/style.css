@@ -1,0 +1,109 @@
+.div-1 {
+  background-color: #FF5733;
+  border: 2px solid hsl(10.5882352941, 110%, 45%);
+  transition: background-color 0.3s ease;
+}
+.div-1:hover {
+  background-color: #ff8200;
+}
+
+.div-2 {
+  background-color: #33FF57;
+  border: 2px solid hsl(130.5882352941, 110%, 45%);
+  transition: background-color 0.3s ease;
+}
+.div-2:hover {
+  background-color: #00ff82;
+}
+
+.div-3 {
+  background-color: #3357FF;
+  border: 2px solid hsl(229.4117647059, 110%, 45%);
+  transition: background-color 0.3s ease;
+}
+.div-3:hover {
+  background-color: #2800ff;
+}
+
+.div-4 {
+  background-color: #F1C40F;
+  border: 2px solid rgb(178.5812992126, 143.206003066, 0.9187007874);
+  transition: background-color 0.3s ease;
+}
+.div-4:hover {
+  background-color: rgb(169.219160105, 193.7007874016, 11.2992125984);
+}
+
+.div-5 {
+  background-color: #9B59B6;
+  border: 2px solid rgb(117.1974726684, 49.6829497908, 144.8170502092);
+  transition: background-color 0.3s ease;
+}
+.div-5:hover {
+  background-color: rgb(152.8033472803, 67.1966527197, 149.1213389121);
+}
+
+.div-6 {
+  background-color: #E67E22;
+  border: 2px solid rgb(177.8201219512, 88.6028496765, 9.6798780488);
+  transition: background-color 0.3s ease;
+}
+.div-6:hover {
+  background-color: rgb(191.3536585366, 157.8739837398, 21.6463414634);
+}
+
+.div-7 {
+  background-color: #1ABC9C;
+  border: 2px solid rgb(9.8306074766, 127.6693925234, 104.3925954771);
+  transition: background-color 0.3s ease;
+}
+.div-7:hover {
+  background-color: rgb(19.8037383178, 126.4392523364, 143.1962616822);
+}
+
+.div-8 {
+  background-color: #34495E;
+  border: 2px solid rgb(21.2784246575, 34.75, 48.2215753425);
+  transition: background-color 0.3s ease;
+}
+.div-8:hover {
+  background-color: rgb(33.8356164384, 38.3904109589, 61.1643835616);
+}
+
+.div-9 {
+  background-color: #95A5A6;
+  border: 2px solid rgb(96.9288461538, 138.9451357466, 141.5711538462);
+  transition: background-color 0.3s ease;
+}
+.div-9:hover {
+  background-color: rgb(121.2769230769, 134.3128205128, 142.7230769231);
+}
+
+.div-10 {
+  background-color: #D35400;
+  border: 2px solid hsl(23.8862559242, 110%, 26.3725490196%);
+  transition: background-color 0.3s ease;
+}
+.div-10:hover {
+  background-color: rgb(160, 117.0300157978, 0);
+}
+
+.div-11 {
+  background-color: #C0392B;
+  border: 2px solid rgb(137.4228723404, 32.008942596, 21.0771276596);
+  transition: background-color 0.3s ease;
+}
+.div-11:hover {
+  background-color: rgb(150.3319148936, 83.5177304965, 33.6680851064);
+}
+
+.div-12 {
+  background-color: #27AE60;
+  border: 2px solid rgb(18.1679577465, 118.3320422535, 60.4594600939);
+  transition: background-color 0.3s ease;
+}
+.div-12:hover {
+  background-color: rgb(29.661971831, 132.338028169, 107.2394366197);
+}
+
+/*# sourceMappingURL=style.css.map */
